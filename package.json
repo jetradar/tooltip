@@ -1,8 +1,8 @@
 {
   "name": "toolpip",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "simple tooltip",
-  "main": "index.js",
+  "main": "dist/tooltip.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "babel -d dist/ src/",
