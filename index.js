@@ -1,9 +1,9 @@
-const div(className) => {
+const div = (className) => {
   let node = document.createElement('div');
 
   node.classList.add(className);
   return node;
-}
+};
 
 const defaultOffset = 12;
 const positions = ['top', 'right', 'bottom'];

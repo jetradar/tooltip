@@ -1,0 +1,27 @@
+{
+  "name": "toolpip",
+  "version": "1.0.1",
+  "description": "simple tooltip",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jetradar/tooltip.git"
+  },
+  "keywords": [
+    "tooltip",
+    "popover",
+    "pure",
+    "javascript",
+    "vanilla",
+    "tooltip-js"
+  ],
+  "author": "a-wart",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jetradar/tooltip/issues"
+  },
+  "homepage": "https://github.com/jetradar/tooltip#readme"
+}
