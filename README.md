@@ -14,10 +14,13 @@ tooltip.show();
 ```
 
 ## API Reference
-`tooltip.show()` — opens a tooltip
-`tooltip.hide()` — hides it
-`tooltip.position(node, direction)` — calculates the position of tooltip relative to passed node. Default positioning is «top» which means the tooltip to be appeared on the top of the element. Also can be «right» and «bottom»
-`tooltip.updateContent(titleText, subtitleText)` — changes title and subtitle text content of tooltip
+`tooltip.show()` opens a tooltip
+
+`tooltip.hide()` hides it
+
+`tooltip.position(node, direction)` Calculates the position of tooltip relative to passed node. Default positioning is «top» which means the tooltip to be appeared on the top of the element. Also can be «right» and «bottom»
+
+`tooltip.updateContent(titleText, subtitleText)` Changes title and subtitle text content of tooltip
 
 ## Options
-`{type: 'help'}` — adds «help» class to tooltip element
+`{type: 'help'}` Adds «help» class to tooltip element
