@@ -18,7 +18,7 @@ export default class Tooltip {
     this.shown = false;
 
     this.tooltip = this.createTooltip();
-    this.tooltip.on('click', (event) => {
+    this.tooltip.addEventListener('click', (event) => {
       this.hide();
       event.stopPropagation();
     });
